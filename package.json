@@ -1,0 +1,25 @@
+{
+  "name": "rnapi",
+  "version": "1.0.0",
+  "description": "Api for RN to identify Tomatoes and Apples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuankiCR/jkRNAPI.git"
+  },
+  "author": "JuankiCR",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JuankiCR/jkRNAPI/issues"
+  },
+  "homepage": "https://github.com/JuankiCR/jkRNAPI#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.13.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
